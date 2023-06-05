@@ -1,0 +1,14 @@
+Ejecución del programa:
+
+1. Abrir una terminal
+2. compilar el código, primero el servidor:
+gcc Server.c -o Server -lws2_32
+3. Ejecutar el servidor para esperar conexiones en el puerto 12345
+Servidor
+
+Realizar lo mismo con Cliente
+1. abrir terminal
+2. compilar: gcc Client.c -o Client -lws2_32
+3. Ejecutar: Cliente
+
+Para finalizar la conexión el cliente debe de mandar un mensaje que diga: "adios"
